@@ -58,7 +58,7 @@ hljs.configure({
   encoding: utf8
   timeout: 15
   pool: 30</pre></div>
-    <div class="table" id="id14007"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.1: </span><span class="name">Database Configuration Keywords </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14007">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id14195"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.1: </span><span class="name">Database Configuration Keywords </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14195">#</a></h6></div><div class="table-contents">
      
      <table class="table" summary="Database Configuration Keywords" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /></colgroup><thead><tr><th align="left" valign="top"> keyword </th><th align="left" valign="top"> Description </th><th align="left" valign="top">Remarks</th></tr></thead><tbody><tr><td align="left" valign="top">
          <p>adapter</p>
@@ -136,19 +136,19 @@ hljs.configure({
         <a class="ulink" href="https://guides.rubyonrails.org/configuring.html#rails-environment-settings" target="_blank">Rails environment<span class="ulink-url"> (https://guides.rubyonrails.org/configuring.html#rails-environment-settings)</span></a>
         or as generic configuration option defined in <span class="emphasis"><em>default</em></span>.
       </p>
-    <div id="id14096" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
+    <div id="id14284" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
       <p>
         We've updated the format of the <span class="emphasis"><em>options.yml</em></span> after
         the release of OBS 2.9. Old configuration files can be converted via
         </p><div class="verbatim-wrap"><pre class="screen"><code class="prompt user">(cd /srv/www/obs/api/; rake migrate_options_yml)</code></pre></div><p>
       </p>
     </div>
-    <div id="id14101" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
+    <div id="id14289" class="admonition note normal"><img class="symbol" alt="Note" title="Note" src="static/images/icon-note.png" /><h6>Note</h6>
      <p>More and more configurations will be moved to the database and do
       not longer exist in this file. The database configuration can be accessed
       via the API <span class="emphasis"><em>/configuration</em></span> path.</p>
     </div>
-    <div class="table" id="id14104"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.2: </span><span class="name"><code class="filename">options.yml</code> Configuration Items </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14104">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id14292"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.2: </span><span class="name"><code class="filename">options.yml</code> Configuration Items </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14292">#</a></h6></div><div class="table-contents">
      
      <table class="table" summary="options.yml Configuration Items" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /><col class="col_4" /></colgroup><thead><tr><th align="left" valign="top"> Config item </th><th align="left" valign="top"> Description </th><th align="left" valign="top"> Values <code class="literal">default</code>
         </th><th align="left" valign="top"> Remarks</th></tr></thead><tbody><tr><td align="left" valign="top">
@@ -437,7 +437,7 @@ development:
     <p>The configuration file /srv/www/obs/api/config/feature.yml
      contains the default configuration about features that can be enabled or
      disabled in Open Build Service.</p>
-    <div class="table" id="id14352"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.3: </span><span class="name"><code class="filename">feature.yml</code> Configuration Items </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14352">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id14540"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.3: </span><span class="name"><code class="filename">feature.yml</code> Configuration Items </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14540">#</a></h6></div><div class="table-contents">
      
      <table class="table" summary="feature.yml Configuration Items" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /><col class="col_4" /></colgroup><thead><tr><th align="left" valign="top"> Config item </th><th align="left" valign="top"> Description </th><th align="left" valign="top"> Values <code class="literal">default</code>
         </th><th align="left" valign="top"> Remarks</th></tr></thead><tbody><tr><td align="left" valign="top">
@@ -609,7 +609,7 @@ LimitRequestFieldsize 20000
     
     <p>This script is used to set up the basic paths and the worker. the
      most important settings are the <span class="strong"><strong>OBS_SRC_SERVER</strong></span> and <span class="strong"><strong>OBS_REPO_SERVERS</strong></span> and the <span class="strong"><strong>OBS_WORKER_INSTANCES</strong></span>.</p>
-    <div class="table" id="id14421"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.4: </span><span class="name"><code class="filename">obs-server</code> Variables </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14421">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id14609"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.4: </span><span class="name"><code class="filename">obs-server</code> Variables </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14609">#</a></h6></div><div class="table-contents">
      
      <table class="table" summary="obs-server Variables" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /><col class="col_4" /></colgroup><thead><tr><th align="left" valign="top"> Variable </th><th align="left" valign="top"> Description </th><th align="left" valign="top"> Values <code class="literal">default</code>
         </th><th align="left" valign="top"> Remarks</th></tr></thead><tbody><tr><td align="left" valign="top">
@@ -1278,12 +1278,12 @@ OBS_WORKER_SCRIPT_URL=""</pre></div>
      mainly defines global variables. Since it is a perl module, after changes
      the back-end servers need to be restarted to become aware of the
      changes.</p>
-    <div id="id14775" class="admonition warning normal"><img class="symbol" alt="Warning" title="Warning" src="static/images/icon-warning.png" /><h6>Warning</h6>
+    <div id="id14963" class="admonition warning normal"><img class="symbol" alt="Warning" title="Warning" src="static/images/icon-warning.png" /><h6>Warning</h6>
      <p>If there is a Perl syntax error in this file, the services will
       not start. Most likely you forgot the semicolon on the end of a
       statement.</p>
     </div>
-    <div class="table" id="id14777"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.5: </span><span class="name"><code class="filename">BSConfig.pm</code> Variables </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14777">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id14965"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.5: </span><span class="name"><code class="filename">BSConfig.pm</code> Variables </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id14965">#</a></h6></div><div class="table-contents">
      
      <table class="table" summary="BSConfig.pm Variables" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /><col class="col_4" /></colgroup><thead><tr><th align="left" valign="top"> Variable </th><th align="left" valign="top"> Description </th><th align="left" valign="top"> Values <code class="literal">default</code>
         </th><th align="left" valign="top"> Remarks</th></tr></thead><tbody><tr><td align="left" valign="top">
@@ -2208,7 +2208,7 @@ if (-r $hostconfig) {
 3|1|72c7986e694f45ab1a62779e64e92a8f|1.0|1464005339|user4|new version|
 4|2|699e9931e6f167d78e65bbe5853f592f|1.0|1464006221|user4|add patch file|
 5|1|0cfc3a2297f38d2aa9d8d0e98fc22a38|1.1|1464007797|user4|new version|</pre></div>
-    <div class="table" id="id15487"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.6: </span><span class="name">The 8 Columns </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id15487">#</a></h6></div><div class="table-contents">
+    <div class="table" id="id15675"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.6: </span><span class="name">The 8 Columns </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id15675">#</a></h6></div><div class="table-contents">
      
      
 
@@ -2310,7 +2310,7 @@ if (-r $hostconfig) {
     information, such as title, description, related user and groups with
     roles, build settings, repository settings, publish settings, debug
     settings and more.</p>
-   <div class="table" id="id15587"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.7: </span><span class="name">Project Meta XML </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id15587">#</a></h6></div><div class="table-contents">
+   <div class="table" id="id15775"><div class="table-title-wrap"><h6 class="table-title"><span class="number">Table 2.7: </span><span class="name">Project Meta XML </span><a title="Permalink" class="permalink" href="obs.cha.overview_filesystem.html#id15775">#</a></h6></div><div class="table-contents">
     
     <table class="table" summary="Project Meta XML" border="1"><colgroup><col class="col_1" /><col class="col_2" /><col class="col_3" /></colgroup><thead><tr><th align="left" valign="top"> XML tag </th><th align="left" valign="top"> Attributes</th><th align="left" valign="top"> Content</th></tr></thead><tbody><tr><td align="left" valign="top">
         <p>project</p>
@@ -2523,5 +2523,5 @@ reposerver="http://obs.b1-systems.de:5252"&gt;
   </div>
  </div>
 </div></div><div class="page-bottom"><div id="_bottom-navigation"><a class="nav-link" href="obs.cha.administration.html"><span class="next-icon">→</span><span class="nav-label"><span class="number">Chapter 3 </span>Administration</span></a><a class="nav-link" href="obs.cha.installation_and_configuration.html"><span class="prev-icon">←</span><span class="nav-label"><span class="number">Chapter 1 </span>Installation and Configuration</span></a></div><div id="_share-print"><div class="online-contents share"><strong>Share this page: </strong><span class="share-buttons"><span id="_share-fb" class="bottom-button">Facebook</span><span class="spacer"> • </span><span id="_share-gp" class="bottom-button">Google+</span><span class="spacer"> • </span><span id="_share-tw" class="bottom-button">Twitter</span><span class="spacer"> • </span><span id="_share-mail" class="bottom-button">E-Mail</span></span></div><div class="print"><span id="_print-button" class="bottom-button">Print this page</span></div><div class="clearme"></div></div></div></div><div id="_inward"></div></div><div id="_footer-wrap"><div id="_footer"><p>©
-        2018 
+        2019 
         SUSE</p><ul><li><a href="http://www.suse.com/company/careers/" target="_top">Careers</a></li><li><a href="http://www.suse.com/company/legal/" target="_top">Legal</a></li><li><a href="http://www.suse.com/company/" target="_top">About</a></li><li><a href="http://www.suse.com/ContactsOffices/contacts_offices.jsp" target="_top">Contact Us</a></li></ul></div></div></body></html>
